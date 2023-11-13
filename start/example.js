@@ -38,4 +38,6 @@ console.log(result);
     __filename(実行中のファイルの絶対パスが格納されている変数)
     fs.writeFileSync(ファイル名、内容)
    02：モジュールの作成
+    別ファイルで関数を定義してmodule.exportsを指定
+    読み込ませたいファイルでモジュールをrequireで指定
 */
