@@ -7,22 +7,22 @@
 
 ## ブラウザとNode.jsの実行環境の違い(エラー発生時のヒント)
 **モジュール管理の仕組み**<br>
-    ブラウザ：ESM
+    ブラウザ：ESM<br>
     Node.js：ESM, CJS
 
-**使える機能**
-    ブラウザ：document(DOM API), alertなど
+**使える機能**<br>
+    ブラウザ：document(DOM API), alertなど<br>
     Node.js：require, fsモジュール, pathモジュールなど
 
-**グローバルオブジェクト**
-    ブラウザ：window
-    Node.js：global
-    ※globalThis：適宜グローバルオブジェクトを返却
-    （どちらの環境でも使用しやすいように追加された同一キーワード）
+**グローバルオブジェクト**<br>
+    ブラウザ：window<br>
+    Node.js：global<br>
+    ※globalThis：適宜グローバルオブジェクトを返却<br>
+    （どちらの環境でも使用しやすいように追加された同一キーワード）<br>
     （クロスプラットフォームで動くのでUniversal(Isomorphic)JavaScriptと呼ばれる）
 
-**Universal(Isomorphic)JavaScript**
-    例：globalThis (ブラウザ：window, Node.js：global)
+**Universal(Isomorphic)JavaScript**<br>
+    例：globalThis (ブラウザ：window, Node.js：global)<br>
        Reactの　　 (ブラウザ：CSR, Node.js：SSR) など
 
 
