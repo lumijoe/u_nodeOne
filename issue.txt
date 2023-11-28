@@ -1,0 +1,4 @@
+## ターミナル起動：node (起動させたいファイルをDDしてパスを表示でエンター)
+    例：start/exmaple.jsの場合　node '/Users/lumi/Desktop/u_nodeOne/start/example.js'
+
+## 1128 28:ESモジュール
