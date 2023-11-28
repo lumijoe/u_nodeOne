@@ -1,9 +1,9 @@
 // example.js
 
 // ESモジュール
-import calc from './calc.js';
+import { plus } from './calc.mjs';
 
-const result = calc.plus(1, 2);
+const result = plus(1, 2);
 console.log(result);
 
 
